@@ -120,7 +120,6 @@ paths:
           description: Produto não encontrado, o ID fornecido não corresponde a nenhum produto existente.
         '500':
           description: Erro no servidor ao tentar atualizar o produto.
-
     delete:
       summary: Deleta um produto
       parameters:
@@ -137,27 +136,6 @@ paths:
           description: Produto não encontrado, o ID fornecido não corresponde a nenhum produto existente.
         '500':
           description: Erro no servidor ao tentar deletar o produto.
-
-components:
-  schemas:
-    produtos:
-      type: object
-      properties:
-        id:
-          type: string
-          description: Código identificador único do produto
-        nome:
-          type: string
-          description: Nome do produto
-        descricao:
-          type: string
-          description: Descrição do produto
-        preco:
-          type: number
-          description: Preço do produto  
-        imagem:
-          type: string
-          description: URL da imagem do produto  
 
   /clientes:
     get:
@@ -209,9 +187,9 @@ components:
           description: Retorna o cliente específico, incluindo todas as suas informações.
         '404':
           description: Cliente não encontrado, o ID fornecido não corresponde a nenhum cliente existente.
-      put:
-        summary: Atualiza um cliente existente
-        parameters:
+    put:
+      summary: Atualiza um cliente existente
+      parameters:
         - name: id
           in: path
           required: true
@@ -242,9 +220,9 @@ components:
           description: Cliente não encontrado, o ID fornecido não corresponde a nenhum cliente existente.
         '500':
           description: Erro no servidor ao tentar atualizar o cliente.
-      delete:
-        summary: Deleta um cliente
-        parameters:
+    delete:
+      summary: Deleta um cliente
+      parameters:
         - name: id
           in: path
           required: true
@@ -258,3 +236,59 @@ components:
           description: Cliente não encontrado, o ID fornecido não corresponde a nenhum cliente existente.
         '500':
           description: Erro no servidor ao tentar deletar o cliente.
+components:
+  schemas:
+    produtos:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Código identificador único do produto
+        nome:
+          type: string
+          description: Nome do produto
+        descricao:
+          type: string
+          description: Descrição do produto
+        preco:
+          type: number
+          description: Preço do produto  
+        imagem:
+          type: string
+          description: URL da imagem do produto
+    cliente:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Código identificador único do produto
+        nome:
+          type: string
+          description: Nome do produto
+        email:
+          type: string
+          description: email do cliente
+        senha:
+          type: number
+          description: senha do cliente  
+        endereco:
+          type: string
+          description: endereço do cliente
+        rua:
+          type: string
+          description: nome da rua do cliente
+        numero: 
+          type: number
+          description: numero do endereço do cliente
+        bairro:
+          type: string
+          description: bairro do cliente
+        cidade:
+          type: string
+          description: cidade do cliente
+        estado:
+          type: string
+          description: estado do cliente
+        cep:
+          type: string
+          description: cep do cliente

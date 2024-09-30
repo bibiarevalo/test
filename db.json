@@ -1,1 +1,246 @@
-{"produtos":[{"id":1,"nome":"Smartphone","descricao":"Smartphone de última geração","preco":1500,"imagem":"smartphone.jpg"},{"id":2,"nome":"Camiseta","descricao":"Camiseta de algodão","preco":30,"categoria_id":2,"imagem":"camiseta.jpg"},{"id":3,"nome":"Vaso de Flores","descricao":"Vaso de flores decorativo","preco":50,"categoria_id":3,"imagem":"vaso_flores.jpg"},{"nome":"produto teste","descricao":"uma descricao qualquer","preco":600,"imagem":"foto.jpg","id":"e8801215-9b11-4a43-b979-344afccbfcc9"},{"nome":"produto teste2","descricao":"uma descricao qualquer","preco":700,"imagem":"foto.jpg","id":"fde550fa-7f2b-4560-bff7-5011f67b6757"},{"nome":"produto teste2","descricao":"uma descricao qualquer","preco":700,"imagem":"foto.jpg","id":"cd3b9cb7-b563-44c0-93d0-d1fc538a5de6"},{"nome":"produto teste2","descricao":"uma descricao qualquer","preco":700,"imagem":"foto.jpg","id":"5427c68a-2ef2-4b13-bf7c-2ee741e047af"},{"nome":"chachá","descricao":"Crachá_de_empresa","preco":80,"imagem":"cracha.jpg","id":"3e724626-acd7-452d-8e71-234cc8657b6c"},{"nome":"camiseta","descricao":"Crachá_de_empresa","preco":80,"imagem":"cracha.jpg","id":"9a7fc83b-1314-4b7c-9311-b7d0217e7cb4"},{"nome":"Gabriella Gotz","descricao":"Crachá_de_empresa","preco":80,"imagem":"cracha.jpg","id":"a6d4a3bc-0b93-4367-bc87-79ed70b0f9a5"},{"nome":"Gabriella Gotz","descricao":"Crachá_de_empresa","preco":80,"imagem":"cracha.jpg","id":"4eff34d8-a2ff-4dff-9922-7c27bc9dc14d"},{"nome":"Produto Teste","descricao":"Descrição do produto teste","preco":100,"id":"9e06a051-6d9e-4d5a-b918-a92a43f8d8c4"},{"nome":"Produto Teste","descricao":"Descrição do produto teste","preco":100,"id":"8b3db4e7-7718-43a1-b181-def1f2ff1a20"},{"nome":"Produto Teste","preco":100,"descricao":"Descrição do Produto Teste","id":"191475f5-afa9-4780-b923-cdefad2aac78"},{"nome":"Produto Teste","preco":100,"descricao":"Descrição do Produto Teste","id":"721d9f04-63df-40da-b900-490ec618a773"},{"nome":"Produto Teste","preco":100,"descricao":"Descrição do Produto Teste","id":"5a2aaff7-8c96-4c9a-a47b-cd14019383f6"},{"nome":"Produto Teste","preco":100,"descricao":"Descrição do Produto Teste","id":"c9bcbfc6-4b8a-4676-b677-fab0bed3f8e2"},{"nome":"Produto Teste","preco":100,"descricao":"Descrição do Produto Teste","id":"7c82d307-1a2e-42aa-86f7-5ba3027fb307"},{"nome":"Produto Teste","preco":100,"descricao":"Descrição do Produto Teste","id":"6ad26b04-698e-466d-8679-33339cb48571"},{"nome":"teste jest","descricao":"teste_descricao","preco":"23","id":"4078b728-31f1-43dd-8b7e-313af9ad3a51"},{"nome":"teste jest","descricao":"teste_descricao","preco":"23","id":"9e39563c-ae02-4769-bfcd-8454f7c05518"},{"nome":"teste jest","descricao":"teste_descricao","preco":"23","id":"40b37915-e613-4625-af53-46649ed05c92"},{"nome":"teste jest","descricao":"teste_descricao","preco":"23","id":"7940f001-8d36-40c2-b8d4-0b13fad178af"},{"nome":"teste jest","descricao":"teste_descricao","preco":"23","id":"d5ff0a0a-c2c3-440a-b643-26659e638db1"},{"nome":"teste jest","descricao":"teste_descricao","preco":"23","id":"7195e8a7-83b4-43aa-9e0f-6e059f950062"},{"nome":"teste jest","descricao":"teste_descricao","preco":23,"id":"628a36f5-3726-4892-bfb7-6294eb735a21"},{"nome":"teste jest","descricao":"teste_descricao","preco":23,"id":"ed546f9b-9b40-4668-a90a-60d7cefb83c4"},{"nome":"teste jest","descricao":"teste_descricao","preco":23,"id":"d0583bc2-2a8b-4e44-8f34-19345b09dd4c"},{"nome":"Produto Teste","descricao":"Descrição do produto teste","preco":50,"id":"cc350e4f-8ea9-4c73-b9e4-e474597d426a"}],"clientes":[{"id":"1","nome":"bea updade","email":"joao.silva@example.com","senha":"123456","endereco":{"rua":"Rua dos Pinheiros","numero":123,"bairro":"Centro","cidade":"São Paulo","estado":"SP","cep":"01234-567"}},{"nome":"teste jest","email":"testejest@gmail.com","senha":"$2a$10$qS3BVbZZOvuDI.if9kNim.wjKpGV/NHoa3.hgcpYxX89IwwrkCsyO","id":"8de057a1-6eca-4c68-a587-162b20e3b66e"},{"nome":" Gotz","email":"maria.oliveira@example.com","senha":"$2a$10$CUMTg4t.ch9LLxlmaWNXcepzQIYhJbDBcFKcQkNNWllsAoWYvOt0S","endereco":{"rua":"Rua das Flores","numero":456,"bairro":"Jardim","cidade":"Rio de Janeiro","estado":"RJ","cep":"98765-432"},"id":"f7f01556-1f51-47b2-bea3-6c8f7bf3454a"}],"pedidos":[{"id":1,"cliente_id":1,"data_pedido":"2022-01-01","status":"pendente","itens":[{"produto_id":1,"quantidade":2,"preco_unitario":1500},{"produto_id":2,"quantidade":1,"preco_unitario":30}]},{"id":2,"cliente_id":2,"data_pedido":"2022-01-15","status":"entregue","itens":[{"produto_id":3,"quantidade":1,"preco_unitario":50}]}]}
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Smartphone",
+      "descricao": "Smartphone de última geração",
+      "preco": 1500,
+      "imagem": "smartphone.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Camiseta",
+      "descricao": "Camiseta de algodão",
+      "preco": 30,
+      "categoria_id": 2,
+      "imagem": "camiseta.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Vaso de Flores",
+      "descricao": "Vaso de flores decorativo",
+      "preco": 50,
+      "categoria_id": 3,
+      "imagem": "vaso_flores.jpg"
+    },
+    {
+      "nome": "produto teste",
+      "descricao": "uma descricao qualquer",
+      "preco": 600,
+      "imagem": "foto.jpg",
+      "id": "e8801215-9b11-4a43-b979-344afccbfcc9"
+    },
+    {
+      "nome": "produto teste2",
+      "descricao": "uma descricao qualquer",
+      "preco": 700,
+      "imagem": "foto.jpg",
+      "id": "fde550fa-7f2b-4560-bff7-5011f67b6757"
+    },
+    {
+      "nome": "produto teste2",
+      "descricao": "uma descricao qualquer",
+      "preco": 700,
+      "imagem": "foto.jpg",
+      "id": "cd3b9cb7-b563-44c0-93d0-d1fc538a5de6"
+    },
+    {
+      "nome": "produto teste2",
+      "descricao": "uma descricao qualquer",
+      "preco": 700,
+      "imagem": "foto.jpg",
+      "id": "5427c68a-2ef2-4b13-bf7c-2ee741e047af"
+    },
+    {
+      "nome": "chachá",
+      "descricao": "Crachá_de_empresa",
+      "preco": 80,
+      "imagem": "cracha.jpg",
+      "id": "3e724626-acd7-452d-8e71-234cc8657b6c"
+    },
+    {
+      "nome": "camiseta",
+      "descricao": "Crachá_de_empresa",
+      "preco": 80,
+      "imagem": "cracha.jpg",
+      "id": "9a7fc83b-1314-4b7c-9311-b7d0217e7cb4"
+    },
+    {
+      "nome": "Gabriella Gotz",
+      "descricao": "Crachá_de_empresa",
+      "preco": 80,
+      "imagem": "cracha.jpg",
+      "id": "a6d4a3bc-0b93-4367-bc87-79ed70b0f9a5"
+    },
+    {
+      "nome": "Gabriella Gotz",
+      "descricao": "Crachá_de_empresa",
+      "preco": 80,
+      "imagem": "cracha.jpg",
+      "id": "4eff34d8-a2ff-4dff-9922-7c27bc9dc14d"
+    },
+    {
+      "nome": "Produto Teste",
+      "descricao": "Descrição do produto teste",
+      "preco": 100,
+      "id": "9e06a051-6d9e-4d5a-b918-a92a43f8d8c4"
+    },
+    {
+      "nome": "Produto Teste",
+      "descricao": "Descrição do produto teste",
+      "preco": 100,
+      "id": "8b3db4e7-7718-43a1-b181-def1f2ff1a20"
+    },
+    {
+      "nome": "Produto Teste",
+      "preco": 100,
+      "descricao": "Descrição do Produto Teste",
+      "id": "191475f5-afa9-4780-b923-cdefad2aac78"
+    },
+    {
+      "nome": "Produto Teste",
+      "preco": 100,
+      "descricao": "Descrição do Produto Teste",
+      "id": "721d9f04-63df-40da-b900-490ec618a773"
+    },
+    {
+      "nome": "Produto Teste",
+      "preco": 100,
+      "descricao": "Descrição do Produto Teste",
+      "id": "5a2aaff7-8c96-4c9a-a47b-cd14019383f6"
+    },
+    {
+      "nome": "Produto Teste",
+      "preco": 100,
+      "descricao": "Descrição do Produto Teste",
+      "id": "c9bcbfc6-4b8a-4676-b677-fab0bed3f8e2"
+    },
+    {
+      "nome": "Produto Teste",
+      "preco": 100,
+      "descricao": "Descrição do Produto Teste",
+      "id": "7c82d307-1a2e-42aa-86f7-5ba3027fb307"
+    },
+    {
+      "nome": "Produto Teste",
+      "preco": 100,
+      "descricao": "Descrição do Produto Teste",
+      "id": "6ad26b04-698e-466d-8679-33339cb48571"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": "23",
+      "id": "4078b728-31f1-43dd-8b7e-313af9ad3a51"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": "23",
+      "id": "9e39563c-ae02-4769-bfcd-8454f7c05518"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": "23",
+      "id": "40b37915-e613-4625-af53-46649ed05c92"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": "23",
+      "id": "7940f001-8d36-40c2-b8d4-0b13fad178af"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": "23",
+      "id": "d5ff0a0a-c2c3-440a-b643-26659e638db1"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": "23",
+      "id": "7195e8a7-83b4-43aa-9e0f-6e059f950062"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": 23,
+      "id": "628a36f5-3726-4892-bfb7-6294eb735a21"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": 23,
+      "id": "ed546f9b-9b40-4668-a90a-60d7cefb83c4"
+    },
+    {
+      "nome": "teste jest",
+      "descricao": "teste_descricao",
+      "preco": 23,
+      "id": "d0583bc2-2a8b-4e44-8f34-19345b09dd4c"
+    },
+    {
+      "nome": "Produto Teste",
+      "descricao": "Descrição do produto teste",
+      "preco": 50,
+      "id": "cc350e4f-8ea9-4c73-b9e4-e474597d426a"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nome": "bea updade",
+      "email": "joao.silva@example.com",
+      "senha": "123456",
+      "endereco": {
+        "rua": "Rua dos Pinheiros",
+        "numero": 123,
+        "bairro": "Centro",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01234-567"
+      }
+    },
+    {
+      "nome": "teste jest",
+      "email": "testejest@gmail.com",
+      "senha": "$2a$10$qS3BVbZZOvuDI.if9kNim.wjKpGV/NHoa3.hgcpYxX89IwwrkCsyO",
+      "id": "8de057a1-6eca-4c68-a587-162b20e3b66e"
+    },
+    {
+      "nome": " Gotz",
+      "email": "maria.oliveira@example.com",
+      "senha": "$2a$10$CUMTg4t.ch9LLxlmaWNXcepzQIYhJbDBcFKcQkNNWllsAoWYvOt0S",
+      "endereco": {
+        "rua": "Rua das Flores",
+        "numero": 456,
+        "bairro": "Jardim",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "98765-432"
+      },
+      "id": "f7f01556-1f51-47b2-bea3-6c8f7bf3454a"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "cliente_id": 1,
+      "data_pedido": "2022-01-01",
+      "status": "pendente",
+      "itens": [
+        { "produto_id": 1, "quantidade": 2, "preco_unitario": 1500 },
+        { "produto_id": 2, "quantidade": 1, "preco_unitario": 30 }
+      ]
+    },
+    {
+      "id": 2,
+      "cliente_id": 2,
+      "data_pedido": "2022-01-15",
+      "status": "entregue",
+      "itens": [{ "produto_id": 3, "quantidade": 1, "preco_unitario": 50 }]
+    }
+  ]
+}
